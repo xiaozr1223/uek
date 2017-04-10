@@ -1,0 +1,330 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-05 20:02:23
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-09 01:06:50
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.banner{
+	width: 100%;
+	height: 6.07rem;
+	background-image: url('../img/banner_02.png');
+	background-size: cover;
+	background-position: center;
+}
+.banner .top{
+	width: 100%;
+	height: 1.3rem;
+	background: #007BE3;
+	position: relative;
+	/* z-index: 99; */
+}
+
+.center{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #F5F6FA;
+}
+.center ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.center ul li{
+	width: 25%;
+	height: 2.85rem;
+	margin-top: 0.4rem;
+	padding-bottom: 0.4rem;
+
+}
+.center ul li a{
+	display: block;
+	width: 2.22rem;
+	height: 2.22rem;
+	border-radius: 0.25rem;
+	background: #FFFFFF;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.center ul li a div{
+	width: 1.5rem;
+	height: 1.5rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 3rem;
+}
+.center ul li h5{
+	font-size: 0.25rem;
+	text-align: center;
+	margin-top: 0.1rem;
+	font-weight: 400;
+}
+.center ul li:nth-child(2) div{
+	background-image: url('../img/shouye6.png');
+	background-position: 1.5rem 0;
+}
+.center ul li:nth-child(3) div{
+	background-image: url('../img/shouye6.png');
+	background-position: 0.02rem -1.7rem;
+}
+.center ul li:nth-child(4) div{
+	background-image: url('../img/ufo.png');
+	background-size: 1.5rem;
+}
+.center ul li:nth-child(5) div{
+	background-image: url('../img/shouye6.png');
+	background-position: 1.5rem -1.7rem;
+}
+.center ul li:nth-child(6) div{
+	background-image: url('../img/shouye6.png');
+	background-position: 0rem -4.9rem;
+}
+.center ul li:nth-child(7) div{
+	background-image: url('../img/shouye6.png');
+	background-position: 0.02rem -3.3rem;
+}
+.center ul li:nth-child(8) div{
+	background-image: url('../img/shouye6.png');
+	background-position: 1.5rem -3.3rem;
+}
+
+.bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;	
+}
+.bottom .title{
+	width: 100%;
+	height: 0.9rem;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.bottom .title_xia{
+	width: 100%;
+}
+.bottom .title_xia>div{
+	width: 50%;
+	height: 3.15rem;
+	border-right: 1px solid #e8e8e8;
+    padding: 0.38rem 0rem 0.48rem 0.3rem;
+    box-sizing: border-box;
+    float: left;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+ 
+
+}
+
+.bottom .title_xia div h3{
+	width: 1.70rem;
+	font-size: 0.34rem;
+	color: #000;
+	float: left;
+	font-weight: 500;
+}
+.bottom .title_xia div p{
+	width: 2.3rem;
+	font-size: 0.28rem;
+	line-height: 0.4rem;
+	color: #999999;
+	float: left;
+}
+.bottom .title_xia div div{
+	width: 2.2rem;
+	height: 2.2rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 3.2rem;
+	background-position: 0rem -7rem;
+	float: right;
+	margin-right: 0.3rem;
+}
+.bottom .x1>div{
+	border-right: 0;	
+}
+.bottom .x1 div div{
+	height: 2.5rem;
+	margin-right: 0.3rem;
+	background-size: 3rem;
+	background-position: 0rem -8.6rem;
+}
+
+.zxl{
+	width: 100%;
+	height: auto;
+	overflow: hidden;	
+	padding-bottom: 1.3rem;
+}
+
+.zxl>div{
+	width: 33.3333333333%;
+	float: left;
+	height: 1.85rem;
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #e8e8e8;
+	box-sizing: border-box;
+}
+.zxl div img{
+	margin-left: 0.2rem;
+	width: 0.85rem;	
+	height: auto;
+}
+.zxl div h3{
+	width: 2.0rem;
+	font-size: 0.34rem;
+	color: #000;
+	font-weight: 500;
+	margin-left: 0.2rem;
+}
+.zxl div p{
+	width: 2.4rem;
+	font-size: 0.28rem;
+	line-height: 0.4rem;
+	color: #999999;
+}
+
+.xx{
+	width: 100%;
+	height: 1.3rem;
+	background: #E7E7E7;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	z-index: 99;
+}
+.xx>div{
+	width: 2.3rem;
+	height: 0.5rem;
+	margin-left: 0.4rem;
+	font-size: 0.3rem;
+}
+.xx>div p{
+	/* width: 1.4rem; */
+	float: right;
+	line-height: 0.55rem;
+	margin-right: 0.2rem;
+}
+.xx div img{
+	height: 0.5rem;
+}
+.xx>div:last-child{
+	margin-left: 5.5rem
+}
+.xx .dd{
+	width: 0.42rem;
+	height: 0.42rem;
+	border-radius: 50%;
+	background: #FF2A0E;
+	position: absolute;
+	top: 0.1rem;
+	right: 2.4rem;
+	line-height: 0.48rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.2rem;
+}
+
+
+.hs{
+	width: 4.3rem;
+	height: 1.35rem;
+	border-radius: 0.08rem;
+	background: #FF8D12;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	bottom: 0.15rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 0.4rem;
+	z-index: 99;
+}
+.hs img{
+	width: 1.1rem;
+}
+.hs span{
+	color: #fff;
+	font-size: 0.5rem;
+}
+
+
+
+.gus{
+	width: 100%;
+	height: 1.25rem;
+	background: #37BBFF;
+	position: fixed;
+	top: 0;
+	display: flex;
+	overflow: hidden;
+}
+.gus>div{
+	width: 24%;
+	height: 1.25rem;
+}
+.gus>div:first-child{
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+.gus div div{
+	width: 7.9rem;
+	height: 1rem;
+	border-radius: 0.04rem;
+	background: #CCCCCC;
+	margin: 0 auto;
+}
+.gus div div form{
+	width: 100%;
+	border-radius: 0.04rem;
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gus div div input{
+	width: 99%;
+	border-radius: 0.04rem;
+	height: 0.9rem;
+	font-size: 0.3rem;
+	border: 0;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	color: #A9A9A9;
+}
+
+.gus>div:last-child{
+	/* width: 2.06rem;
+	height: 0.86rem;
+	background: #03159B; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gus>div:last-child input{
+	width: 1.9rem;
+	height: 0.8rem;
+	border-radius: 0.06rem;
+	background: #03159B;
+	border: 0;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+}
+
