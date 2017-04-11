@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-04-05 20:02:23
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-04-11 00:12:23
+* @Last Modified time: 2017-04-11 09:18:24
 */
 *{
 	margin: 0;
@@ -175,7 +175,7 @@ a{
 	
 }
 .zxl a>div{
-	width: 33.3333333333%;
+	width: 100%;
 	float: left;
 	height: 1.85rem;
 	display: flex;
